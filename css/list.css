@@ -1,0 +1,102 @@
+/* 列表页专用样式 */
+.nav {
+  overflow: hidden;
+}
+.sk {
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  border-left: 1px solid #c81523;
+  padding: 3px 0 0 14px;
+}
+.sk_list ul > li {
+  float: left;
+}
+.sk_list ul li a {
+  display: block;
+  line-height: 47px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 30px;
+}
+.sk_con ul li {
+  float: left;
+}
+.sk_con ul li a {
+  display: block;
+  line-height: 49px;
+  font-size: 14px;
+  margin: 0 20px;
+}
+.sk_con ul li:last-child a::after {
+  content: "\e91e";
+  font-family: "icomoon";
+}
+.sk_bd ul li {
+  float: left;
+  width: 290px;
+  height: 460px;
+  border: 1px solid transparent;
+  margin-right: 13px;
+  margin-bottom: 13px;
+}
+.sk_bd ul li:hover {
+  border: 1px solid #c81523;
+}
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.pic {
+  width: 100%;
+  height: 290px;
+  text-align: center;
+}
+.info {
+  width: 100%;
+  padding: 0 11px;
+}
+.sk_bd ul li p {
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+.old_price,
+.new_price {
+  display: inline-block;
+}
+.new_price {
+  font-size: 22px;
+  color: #e60012;
+  margin-right: 7px;
+}
+.old_price {
+  font-size: 14px;
+  color: #a4a4a4;
+  text-decoration: line-through;
+}
+.bar {
+  display: inline-block;
+  width: 132px;
+  height: 12px;
+  border: 1px solid #ed282e;
+  border-radius: 6px;
+  margin: 0 11px;
+}
+.bar_in {
+  width: 0;
+  height: 10px;
+  background-color: #ed282e;
+  border-radius: 5px;
+  transition: all 0.7s;
+}
+.bar:hover .bar_in {
+  width: 87%;
+}
+.sk_bd ul li button {
+  width: 100%;
+  height: 50px;
+  background-color: #b1191a;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 14px;
+}

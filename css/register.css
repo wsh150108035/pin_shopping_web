@@ -1,0 +1,112 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 84px;
+  border-bottom: 2px solid #b1191a;
+  padding-top: 16px;
+}
+.registarea {
+  margin-top: 20px;
+  height: 522px;
+  border: 1px solid #dfdfdf;
+}
+.registarea h3 {
+  height: 42px;
+  background-color: #ececec;
+  padding: 0 10px;
+  line-height: 42px;
+  font-size: 18px;
+}
+h3 .login {
+  float: right;
+  font-size: 14px;
+}
+h3 .login a {
+  color: #c81623;
+}
+.reg_form {
+  width: 600px;
+  margin: 50px auto 0;
+}
+.reg_form ul li {
+  margin-bottom: 20px;
+}
+.reg_form ul li label {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.reg_form ul li input {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+}
+.error {
+  color: #c81523;
+}
+.success {
+  color: green;
+}
+.error_icon,
+.success_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(../images/error.png) no-repeat;
+  margin-top: -2px;
+}
+.success_icon {
+  background: url(../images/success.png) no-repeat;
+}
+.safe {
+  color: #b2b2b2;
+  margin-top: -9px;
+  padding-left: 165px;
+}
+.safe em {
+  color: #fff;
+  padding: 0 12px;
+}
+.safe em:nth-child(1) {
+  background-color: #de1111;
+}
+.safe em:nth-child(2) {
+  background-color: #40b83f;
+}
+.safe em:nth-child(3) {
+  background-color: #f79100;
+}
+.agree {
+  padding-left: 95px;
+}
+.agree input {
+  vertical-align: middle;
+}
+.agree a {
+  color: #1ba1e6;
+}
+.reg_form button {
+  width: 200px;
+  height: 34px;
+  background-color: #c81623;
+  color: #fff;
+  margin-left: 120px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.mod-copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+.mod-copyright .links {
+  margin-bottom: 15px;
+}
+.copyright {
+  line-height: 20px;
+}
+.links a {
+  margin: 0 3px;
+}
